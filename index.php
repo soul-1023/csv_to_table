@@ -14,15 +14,8 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-6">
-                <form class="form-group" action="uploadCSV.php" enctype="multipart/form-data" method="POST">
-                    <label for="upload">Выберите ваш CSV-файл</label>
-                    <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
-                    <input class="form-control" type="file" name="upload" multiple>
-                </form>
-            </div>
 
-            <div class="col-6">
+            <div class="col-12">
                 <table class="table">
                     <thead>
                     <tr>
@@ -43,6 +36,7 @@
                     </tbody>
                 </table>
             </div>
+
         </div>
     </div>
 </body>
